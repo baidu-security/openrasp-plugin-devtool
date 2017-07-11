@@ -1,5 +1,5 @@
 'use strict'
-var plugin = new RASP('offical')
+var plugin = new RASP('example')
 
 var clean = {
     action: 'ignore',
@@ -41,7 +41,7 @@ function canonicalPath (path) {
     return path.replace(/\/\.\//g, '/').replace(/\/+/g, '/')
 }
 
-plugin.register('dir', function (params) {
+plugin.register('directory', function (params) {
     var path = canonicalPath(params.path)
     if (path.indexOf('/../../../') !== -1) {
         return {

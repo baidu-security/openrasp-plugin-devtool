@@ -10,7 +10,7 @@
     "rasp": "./bin/rasp"
   },
   "author": "lanyuhang@baidu.com",
-  "license": "MIT",
+  "license": "BSD",
   "dependencies": {
     "chai": "^4.0.2",
     "commander": "^2.11.0",

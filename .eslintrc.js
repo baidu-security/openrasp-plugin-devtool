@@ -24,7 +24,6 @@ module.exports = {
     'globals':{
         'RASP': true,
         'Attack': true,
-        'PluginError': true,
-        'window': true
+        'PluginError': true
     }
 }
