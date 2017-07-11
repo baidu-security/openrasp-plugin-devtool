@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+/* eslint-env node */
+require('commander')
+    .version(require('../package').version)
+    .usage('<command> [options]')
+    .command('check', 'check the plugin')
+    .command('publish', 'publish plugin to registory')
+    .parse(process.argv)

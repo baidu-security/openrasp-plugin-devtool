@@ -1,0 +1,20 @@
+{
+  "name": "openraspjs",
+  "version": "0.0.1",
+  "description": "OpenRASP JavaScript plugin developmet tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rasp": "./bin/rasp"
+  },
+  "author": "lanyuhang@baidu.com",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "commander": "^2.11.0",
+    "eslint": "^4.1.1",
+    "mocha": "^3.4.2"
+  }
+}
