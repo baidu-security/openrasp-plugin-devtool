@@ -10,12 +10,15 @@ module.exports = {
         'indent': ['error', 4],
         'linebreak-style': 'off',
         'quotes': 'off',
-        'semi': ['error', 'never'],
+        'semi': ['error', 'always'],
         'no-unused-vars': 'off',
         'no-console': 'off',
         'space-before-blocks': ['error', 'always'],
         'space-infix-ops': 'error',
-        'space-before-function-paren': ['error', 'always'],
+        'space-before-function-paren': ['error', {
+            'anonymous': 'always',
+            'named': 'never'
+        }],
         'arrow-spacing': 'error',
         'comma-spacing': ['error', {'before': false, 'after': true}],
         'keyword-spacing': ['error', {'before': true, 'after': true}],
@@ -24,6 +27,7 @@ module.exports = {
     'globals':{
         'RASP': true,
         'Attack': true,
-        'PluginError': true
+        'PluginError': true,
+        'Context': true
     }
 }
