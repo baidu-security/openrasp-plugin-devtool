@@ -1,6 +1,6 @@
 # OpenRASP
 
-A CLI tool for OpenRASP JavaScript plugins development.
+A CLI tool for [OpenRASP](http://rasp.baidu.com) JavaScript plugins development.
 
 ### Installation
 
@@ -38,8 +38,3 @@ $ rasp check plugin.js
 
   5 passing (238ms)
 ```
-
-### Roadmap
-
-1. `init` - A command to generate a template plugin project.
-2. `publish` - A command to publish the plugin to OpenRASP plugin registry.
