@@ -5,6 +5,7 @@
   "preferGlobal": true,
   "main": "index.js",
   "scripts": {
+    "build": "babel -d dist --presets es2015 lib/environment",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "http://rasp.baidu.com",
@@ -19,5 +20,9 @@
     "commander": "^2.11.0",
     "eslint": "^4.1.1",
     "mocha": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
