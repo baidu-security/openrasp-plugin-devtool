@@ -13,6 +13,13 @@
     "rasp": "bin/rasp",
     "rasp-check": "bin/rasp-check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baidu-security/openrasp-plugin-devtool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baidu-security/openrasp-plugin-devtool/issues"
+  },
   "author": "Lan Yuhang <lanyuhang@baidu.com>",
   "license": "BSD",
   "dependencies": {
