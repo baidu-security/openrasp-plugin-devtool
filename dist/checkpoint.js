@@ -243,3 +243,24 @@ Object.defineProperty(global, 'CheckPointReflection', {
     value: CheckPointReflection,
     enumerable: true
 });
+
+var CheckPointInclude = function () {
+    function CheckPointInclude(data) {
+        _classCallCheck(this, CheckPointInclude);
+
+        this.clazz = data.clazz;
+    }
+
+    _createClass(CheckPointInclude, null, [{
+        key: 'name',
+        get: function get() {
+            return 'include';
+        }
+    }]);
+
+    return CheckPointInclude;
+}();
+Object.defineProperty(global, 'CheckPointInclude', {
+    value: CheckPointInclude,
+    enumerable: true
+});
