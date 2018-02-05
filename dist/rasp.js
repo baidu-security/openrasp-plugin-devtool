@@ -59,6 +59,11 @@ var RASP = function () {
         key: 'setCache',
         value: function setCache() {}
     }], [{
+        key: 'get_jsengine',
+        value: function get_jsengine() {
+            return 'v8';
+        }
+    }, {
         key: 'check',
         value: function check(checkPoint, checkParams, checkContext) {
             if (typeof checkPoint !== 'string' || checkPoint.length == 0) {
