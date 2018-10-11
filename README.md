@@ -15,26 +15,24 @@ $ npm install -g openrasp
 Check the ability and syntax of the plugin:
 
 ```bash
-$ rasp check
+$ Usage: rasp-check <file>
 
-  Usage: rasp check <file>
-
-
-  Options:
-
-    -t, --test-dir <dir>  specify a custom test cases directory
-    -h, --help            output usage information
+Options:
+  -d, --case-dir <dir>        specify a testcases directory
+  -p, --plugin-file <plugin>  specify a javascript plugin file
+  -h, --help                  output usage information
 ```
 Example:
 
 ```bash
-$ rasp check plugin.js
+$ rasp check -d ~/openrasp/agent/java/engine/src/test/resources/pluginUnitTest/unitCases/ -p ~/openrasp/plugins/official/plugin.js
+[offical] OpenRASP official plugin: Initialized, version 2018-1010-1600
 
-  √ 插件代码检查 代码规范: 150ms
-  √ 插件代码检查 模拟环境: 15ms
-  √ 插件能力测试 sql 安全 DESC wp_users: 16ms
-  √ 插件能力测试 sql 安全 select name, email from users where id = 1002: 0ms
-  √ 插件能力测试 sql 不安全 select name, email from users where id = 1002 and 1=2 union select table_name, table_schema from information_schema.tables: 0ms
+  ✓ sql.json Simple userinput match test: 9ms
+  ✓ sql.json SQL injection with hex values: 1ms
+  ✓ sql.json SQL injection with datetime methods: 2ms
+  ✓ ssrf.json SSRF userinput match test: 2ms
+  ✓ ssrf.json SSRF false positive test: 1ms
 
-  5 passing (238ms)
+  5 passing (26ms)
 ```
