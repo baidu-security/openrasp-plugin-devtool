@@ -1,6 +1,0 @@
-select name, email from a where id = 1002 and 1=2 union select user(), 1
-select name, email from a where id = -1 union select load_file('/etc/passwd'), 1
-select name, email from a where id = -1 union select 0x41424344, 1
-select name, email from a where id = -1 /*!50000union select 1, 1*/
-select name, email from a where id = -1 union all select 1, sleep(3)
-select name, email from a; update admin set password = '123456' where id = 1;

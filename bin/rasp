@@ -2,10 +2,10 @@
 /* eslint-env node */
 
 console.log();
-console.log('  OpenRASP - https://rasp.baidu.com');
+console.log('OpenRASP plugin devtool - https://rasp.baidu.com')
 
 require('commander')
     .version(require('../package').version)
     .usage('<command> [options]')
     .command('check', 'check the plugin')
-    .parse(process.argv);
+    .parse(process.argv)
