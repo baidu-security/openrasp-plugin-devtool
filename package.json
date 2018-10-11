@@ -1,6 +1,6 @@
 {
   "name": "openrasp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool for OpenRASP JavaScript plugins development",
   "preferGlobal": true,
   "main": "index.js",

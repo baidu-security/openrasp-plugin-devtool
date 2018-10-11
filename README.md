@@ -15,7 +15,7 @@ $ npm install -g openrasp
 Check the ability and syntax of the plugin:
 
 ```bash
-$ Usage: rasp-check <file>
+$ Usage: rasp-check
 
 Options:
   -d, --case-dir <dir>        specify a testcases directory
