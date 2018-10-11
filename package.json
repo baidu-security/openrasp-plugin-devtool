@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/baidu-security/openrasp-plugin-devtool/issues"
   },
-  "author": "Lan Yuhang <lanyuhang@baidu.com>",
+  "author": "OpenRASP Developers <openrasp@baidu.com>",
   "license": "BSD",
   "dependencies": {
     "chai": "^4.0.2",
