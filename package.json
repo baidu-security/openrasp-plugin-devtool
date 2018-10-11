@@ -1,6 +1,6 @@
 {
   "name": "openrasp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool for OpenRASP JavaScript plugins development",
   "preferGlobal": true,
   "main": "index.js",
@@ -24,10 +24,9 @@
   "license": "BSD",
   "dependencies": {
     "chai": "^4.0.2",
-    "chalk": "^2.4.1",
     "commander": "^2.11.0",
     "eslint": "^4.1.1",
-    "mocha": "^4.2.0"
+    "mocha": "^5.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
